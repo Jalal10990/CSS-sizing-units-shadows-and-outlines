@@ -1,0 +1,81 @@
+body{
+*{
+    margin: 0;
+    padding: 0;
+}
+    .box{
+
+        border: 2px solid blue;
+        /* width:2048px;        */
+         /* full width 2048 px  */
+         width: 80vw;
+         height: 20vh;
+        background-color: aqua;
+        box-sizing: border-box;
+        margin: auto;
+        /* box in center if it is block element */
+        box-shadow: 20px 20px 5px  rgb(35, 255, 1);
+
+    }
+    .container{
+        border: 2px solid blue;
+        /* width:2048px;        */
+         /* full width 2048 px  */
+         width: 80vw;
+        background-color: aqua;
+        box-sizing: border-box;
+        margin:23px auto;
+        /* box in center if it is block element */
+        /* height: 40vh; */
+        font-size: 20px;
+        min-height: 80vh;
+        box-shadow: 20px 20px 5px  rgb(238, 7, 7);
+    }
+    .container div{
+        /* em and rem use  ,,html is a root element*/
+        font-size: 1rem;
+/* use of persantage units */
+width: 50%;
+border: 2px solid rgb(255, 12, 12);
+
+    }
+    html{
+        font-size: 12px;
+    }
+    /* use of vmin */
+    .mycont{
+        background-color: rgb(12, 4, 123);
+        color: lime;
+        font-size: 22px;
+        /* width: 100vmin; */
+        box-sizing: border-box;
+        margin:23px auto;
+        border: 2px solid blue;
+width: 80vw;
+
+    }
+    .container div div{
+        border: 2px solid blue;
+        width: 50%;
+    }
+    .box2{
+        border: 2px solid red;
+        width: 80vw;
+        height: 20vh;
+       background-color: aqua;
+       box-sizing: border-box;
+       margin: auto;
+       /* shadow property */
+       box-shadow: 20px 20px 5px  rgb(18, 9, 9);
+    }
+    .text-element{
+        text-shadow: 12px 13px 2px;
+    color: blue;
+   
+    }
+    h2{
+        border: 2px solid greenyellow;
+        border-radius: 8px;
+        outline-offset: 44px;
+    }
+}
